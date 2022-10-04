@@ -1,0 +1,141 @@
+.container {
+  margin-top: 50px;
+}
+
+.card {
+  background: linear-gradient(#6391bd, #c7e1ee);
+  max-width: 700px;
+  margin: 0 auto;
+  box-shadow: 5px 5px 5px rgba(46, 46, 46, 0.1);
+}
+  .main {
+    margin-left: 5px;
+    float:left;
+  }
+  
+  .date {
+    margin-left: -31px;
+    padding-top: 10px;
+  }
+
+  li {
+    list-style: none;
+    text-align: center;
+    color: #253b6a;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #0859a5;
+    margin-top: 10px;
+    font-family: "Mitr", sans-serif;
+    font-size: 38px;
+  }
+  
+  .degree {
+    text-align: center;
+    margin-left:18px;
+    font-size: 60px;
+    font-family: "Montserrat Alternates", sans-serif;
+    margin-top: -19px;
+    color: #0859a5;
+  }
+    
+  .degree .active {
+    color: #0859a5;
+    cursor: default;
+  }
+  
+  .degree .active:hover {
+    text-decoration: none;
+
+  }
+  
+  .units {
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    position: relative;
+    top: -25px;
+  }
+  .temperature {
+    margin-right: -8px;
+  }
+
+  .search-form {
+    margin-top: 10px;
+  }
+  
+  .form-control {
+    margin-top: 5px;
+    background: linear-gradient(#7d9ebe, #c7e1ee);
+
+  }
+  
+  #search-button,
+  #current-location {
+    margin-top: 5px;
+    background: #347abc;
+    border-color: #6391bd;
+  }
+  
+  #search-button:hover,
+  #current-location:hover {
+    color: #88bae9;
+    background: #0859a5;
+    border-color: #88bae9;
+  }
+  
+  #search-button {
+    margin-left: -18px;
+  }
+     
+  .weatherCondition {
+    margin-top: 55px;
+    color: #253b6a;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  p{
+    margin: 5px auto;
+  }
+
+  
+   .weather-icons {
+    text-align: center;
+    font-size: 60px;
+    margin-top: -22px;
+  }
+  
+  .day-card {
+    max-width: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+   .weather-forecast-date {
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    color: #414753;
+    text-align: center;
+  }
+
+  .temp {
+    font-size: 12px;
+    font-family: "Poppins", sans-serif;
+    color: #414753;
+    text-align: center;
+
+  }
+  
+  .footer {
+
+    text-align: center;
+  }
+ 
+  .footer-text {
+    color: #414753;
+    font-size: 14px;
+  }
